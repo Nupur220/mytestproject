@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="testproject.Listeners" />
+	</listeners>
+	<test name="validate user ">
+		<classes>
+			<class name="testproject.Email" />
+
+		</classes>
+	</test>
+	<test name="validate buisness">
+		<classes>
+			<class name="testproject.Domain" />
+		</classes>
+	</test>
+	<test name="validate fiels">
+
+		<classes>
+			<class name="testproject.Allfield" />
+		</classes>
+	</test>
+	<test name="validate password">
+		<classes>
+			<class name="testproject.Phoneno" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
